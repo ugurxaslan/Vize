@@ -75,7 +75,7 @@ test_that("BONUS Longitude adlı sütunun 3.,  9. ve 10. elementleri negatif
   testthat::expect_true(all(is.numeric(selected_elements)))
 })
 #1.10 testleri
-#2.14
+#2.15
 test_that("finalResult değişkeni var mı?", {
   expect_true(exists("finalResult"))
 })
