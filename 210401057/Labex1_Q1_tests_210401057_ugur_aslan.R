@@ -65,6 +65,17 @@ test_that("idx nesnesinin tipi (class’ı) integer’dir.",{
 
 
 
+#1.5 testleri
+#2.10
+test_that("Longitude adlı sütün numeric değerlerden oluşmalıdır.",{
+  testthat::expect_true(all(is.numeric(maps$Longitude)))
+})
+
+
+
+
+
+
 
 
 

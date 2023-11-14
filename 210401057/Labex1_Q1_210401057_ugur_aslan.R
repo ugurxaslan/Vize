@@ -11,3 +11,7 @@ maps$Latitude <- as.numeric(gsub("N", "", maps$Latitude))
 
 #1.4
 idx <- which(grepl("W", maps$Longitude))
+
+#1.5
+maps$Longitude <- as.numeric(gsub("[EW]", "", maps$Longitude))
+
