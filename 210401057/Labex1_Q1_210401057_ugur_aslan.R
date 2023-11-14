@@ -5,3 +5,6 @@ download.file(
   )
 #1.2
 maps <- read.csv("MapsThatChangedOurWorld_StoryMap_Data.csv", sep=";" , header = TRUE)
+
+#1.3
+maps$Latitude <- as.numeric(gsub("N", "", maps$Latitude))

@@ -40,6 +40,12 @@ test_that("maps adlı data.frame’in 5. sütunun adında “Title” kelimesi g
 })
 
 
+#2.9
+test_that("maps adlı data.frame’in 5. sütunun adında “Title” kelimesi geçmelidir.",{
+  testthat::expect_true(all(is.numeric(maps$Latitude)))
+})
+
+
 
 
 
