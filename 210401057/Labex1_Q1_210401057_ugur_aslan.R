@@ -28,5 +28,8 @@ hist(maps$Year, breaks = 10, main = "Histogram of Year", xlab = "Year" ,col="yel
 #1.9
 maps$Longitude[idx] <- maps$Longitude[idx] * -1
 
+#1.10
+finalResult <- maps[c("Longitude", "Latitude", "Year")]
+
 
 
