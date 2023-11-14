@@ -100,6 +100,14 @@ test_that("Longitude adlı sütün numeric değerlerden oluşmalıdır.",{
 #bunla ilgili test yoktur 
 
 
+#1.9 testleri
+#2.14
+test_that("BONUS Longitude adlı sütunun 3.,  9. ve 10. elementleri negatif numeric değerler içermelidir",{
+  selected_elements <- maps$Longitude[c(3, 9, 10)]
+  expect_true(all(selected_elements < 0))
+  expect_true(all(is.numeric(selected_elements)))
+})
+
 
 
 
