@@ -84,6 +84,22 @@ test_that("Year adlı adlı sütün numeric değerlerden oluşmalıdır.",{
 
 
 
+#1.7 testleri
+#bunla ilgili testler tamamlanmıştır sırası karışık verilmiş hoca tarafından
+#2.9
+test_that("Latitude adlı sütün numeric değerlerden oluşmalıdır.",{
+  testthat::expect_true(all(is.numeric(maps$Latitude)))
+})
+#2.13
+test_that("Longitude adlı sütün numeric değerlerden oluşmalıdır.",{
+  testthat::expect_true(all(is.numeric(maps$Longitude)))
+})
+
+
+
+
+
+
 
 
 
