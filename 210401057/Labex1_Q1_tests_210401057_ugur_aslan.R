@@ -96,6 +96,11 @@ test_that("Longitude adlı sütün numeric değerlerden oluşmalıdır.",{
 })
 
 
+#1.8 testleri
+#bunla ilgili test yoktur 
+
+
+
 
 
 
